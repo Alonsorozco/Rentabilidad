@@ -4,7 +4,8 @@ gastos = ARGV[2].to_i
 usuarios_g = ARGV[3].to_i
 usuarios_p = ARGV[4].to_i
 
-usuariosformula =usuarios_g*2
+usuariosformula =usuarios_g*2+usuarios+usuarios_p*0
 
-utilidad=(precio*usuarios)-gastos
+utilidad=(precio*usuariosformula)-gastos
 
+puts utilidad
