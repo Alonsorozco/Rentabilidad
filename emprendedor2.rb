@@ -8,4 +8,8 @@ usuariosformula =usuarios_g*2+usuarios+usuarios_p*0
 
 utilidad=(precio*usuariosformula)-gastos
 
+if utilidad > 0
+    utilidad = utilidad*0.65
+end
+
 puts utilidad
