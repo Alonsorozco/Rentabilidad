@@ -5,8 +5,7 @@ gastos= ARGV[2].to_i
 
 utilidad = precio_venta*usuarios - gastos
 if utilidad > 0
-    utilidad = utilidad*35
-else
+    utilidad = utilidad*0.65
 end
 
 puts utilidad
